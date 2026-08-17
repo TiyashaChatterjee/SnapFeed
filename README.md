@@ -29,7 +29,7 @@ A full-stack, single-page application (SPA) demonstrating a scalable media uploa
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
-**2. Setup the Backend
+**2. Setup the Backend**
 cd backend
 npm install
 
@@ -41,16 +41,15 @@ IMAGEKIT_PUBLIC_KEY=your_public_key
 IMAGEKIT_PRIVATE_KEY=your_private_key
 IMAGEKIT_URL_ENDPOINT=your_url_endpoint
 ```
-
 Start the backend server:
 ```npm start```
-3. Setup the Frontend
+**3. Setup the Frontend**
 ```
 cd frontend
 npm install
 npm start
 ```
-**🔐 Security Note
+**🔐 Security Note**
 This project uses a .gitignore file to ensure sensitive API keys and Database URIs are never pushed to the public repository.
 code
 ***
