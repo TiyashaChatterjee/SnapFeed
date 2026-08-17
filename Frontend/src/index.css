@@ -71,3 +71,33 @@ html, body, #root{
 .create-post-section button:active {
   transform: scale(0.98);
 }
+
+.feed-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.post-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.post-card img{
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.post-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
