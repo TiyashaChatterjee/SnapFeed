@@ -50,7 +50,7 @@ cd frontend
 npm install
 npm start
 ```
-🔐 Security Note
+**🔐 Security Note
 This project uses a .gitignore file to ensure sensitive API keys and Database URIs are never pushed to the public repository.
 code
 ***
