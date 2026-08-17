@@ -30,8 +30,10 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 **2. Setup the Backend**
+```
 cd backend
 npm install
+```
 
 Create a .env file in the backend folder and add your credentials:
 ```
@@ -43,16 +45,17 @@ IMAGEKIT_URL_ENDPOINT=your_url_endpoint
 ```
 Start the backend server:
 ```npm start```
+
 **3. Setup the Frontend**
+
 ```
 cd frontend
 npm install
 npm start
 ```
-**🔐 Security Note**
+**🔐 Security Note:**
 This project uses a .gitignore file to ensure sensitive API keys and Database URIs are never pushed to the public repository.
-code
-***
+
 ### Instructions:
 1. Copy all of that and put it in your `README.md`.
 2. **Make sure you change the `git clone` link in the setup section to your actual GitHub link!**
